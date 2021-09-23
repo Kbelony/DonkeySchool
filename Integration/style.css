@@ -6,6 +6,7 @@ nav{
     color: black;
     font-size: 17px;
     line-height: 22px;
+    font-family: 'Product Sans', sans-serif;                                               
 }
 .wrapper{
     margin: 0 auto;
@@ -34,9 +35,20 @@ header li a{
 }
 h1{
     text-align: center;
+    font-family: 'Product Sans', sans-serif;
+                                                
 }
 h2{
     text-align: center;
+    font-family: 'Product Sans', sans-serif;
+                                                
+}
+p{
+    font-family: 'SF Pro Display', sans-serif;                                                                        
+}
+form{
+    font-family: 'Product Sans', sans-serif;
+                                                
 }
 .project1{
 position: relative;
@@ -53,7 +65,7 @@ margin-right: auto;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: floralwhite;
-    font-family: 'Lucida Sans',sans-serif;
+    font-family: 'Product Sans', sans-serif;  
     display: flex;
     flex-direction: column;
     align-items: center;
