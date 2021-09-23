@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portofolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <p><strong>menu</strong></p>
+    <p class="menu"><strong>menu</strong></p>
+    <br>
     <nav>Mes projets
         A propos
         Article
@@ -20,7 +22,7 @@
     <section>
         <h1>Mon Portofolio</h1>
         <br>
-        <a href=""><img src="https://via.placeholder.com/1200x380" alt="placeholder en png"></a>
+        <a href=""><img class="png" src="https://via.placeholder.com/1200x380" alt="placeholder en png"></a>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio fugiat veritatis perspiciatis, iure assumenda, iusto, rerum soluta id minus amet. Provident eum rerum mollitia vel perspiciatis inventore modi voluptatem!</p>
         <br>
@@ -28,35 +30,40 @@
     <section>
         <h2>Mes projets</h2>
         <br>
-        <a href=""><img src="https://via.placeholder.com/350x250" alt="thumbnail for my projrcts"></a>
+        <a href=""><img class="project-thumbnail" src="https://via.placeholder.com/350x250" alt="thumbnail for my projrcts"></a>
+        <div class="image__overlay">
+            <div class="image__title">See more</div>
+        </div>
+        <br>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt eveniet libero nisi ratione officia distinctio iure perferendis soluta sequi vero sed, laboriosam consectetur aut temporibus, porro ab repellendus omnis?</p>
         <br>
-        <button type="button">voir tout</button>
+        <button class="voir-tout" type="button">voir tout</button>
         <br>
     </section>
     <section>
         <h2>A propos</h2>
         <br>
-        <a href=""><img src="https://via.placeholder.com/150x150" alt="picture of me"></a>
+        <a href=""><img class="me" src="https://via.placeholder.com/150x150" alt="picture of me"></a>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et reprehenderit optio voluptatem, ullam culpa, recusandae distinctio est accusamus laboriosam maxime dicta sit cupiditate consequatur quo assumenda explicabo aperiam corporis quis.</p>
+        <p class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et reprehenderit optio voluptatem, ullam culpa, recusandae distinctio est accusamus laboriosam maxime dicta sit cupiditate consequatur quo assumenda explicabo aperiam corporis quis.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam doloribus harum nihil beatae ipsam ad delectus possimus necessitatibus nemo itaque rem obcaecati quasi inventore maxime nulla cum, nam aut.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum provident magni impedit saepe! Modi repudiandae maiores quasi quia sed provident molestias velit animi, odit expedita quisquam veritatis quae ab?</p>
         <br>
     </section>
     <section>
     <h2>Articles</h2> 
-    <a href=""><img src="https://via.placeholder.com/350x250" alt="thumbnail for a article"></a>
+    <a href=""><img class="article1" src="https://via.placeholder.com/350x250" alt="thumbnail for a article"></a>
     <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam iste ab labore fugit repellendus deserunt, ea qui corporis eaque saepe eum officiislibero, voluptatem unde quisquam laborum reiciendis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt eveniet libero nisi ratione officia distinctio iure perferendis soluta sequi vero sed, laboriosam consectetur aut temporibus, porro ab repellendus omnis?</p>
     <br>
-    <button type="button">voir tout</button>
+    <button class="voir-tout" type="button">voir tout</button>
         <br>
     </section>
     <section>
         <h2>Contacter-moi</h2>
         <br>
+        <div class="formulaire">
         <form>
             <label for="nom">Nom </label>
             <input id="nom" type="text"> <br/>
@@ -70,6 +77,7 @@
             <br>
             <button type="button">Submit</button>
         </form>
+    </div>
     </section>
     </main>
     <footer>

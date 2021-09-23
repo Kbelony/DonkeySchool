@@ -1,0 +1,42 @@
+img{
+    border-radius: 3px;
+}
+.menu{
+  position: absolute;
+  left: 0px;  
+}
+nav{
+    text-align: center;
+}
+.png{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.project-thumbnail{
+    position: relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.voir-tout{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formulaire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
