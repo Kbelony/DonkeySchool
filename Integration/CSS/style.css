@@ -1,0 +1,200 @@
+img{
+    border-radius: 3px;
+}
+.png, .project-thumbnail, .article1{
+    width: 100%;
+}
+nav{
+    box-sizing: border-box;
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: 'Product Sans', sans-serif;                                               
+}
+body{
+   background-color: #0665FF;
+  
+}
+.wrapper{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+header{
+    border-bottom: 1px solid #000;
+}
+header li{
+    display: inline-block ;
+    vertical-align: top;
+}
+header li a{
+    display: block;
+    padding: 15px;
+}
+.png{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.png:hover{
+    background-color: black;
+ 
+}
+h1, h2{
+    text-align: center;
+    color: white;
+    font-family: 'Product Sans', sans-serif;
+    margin-bottom: 30px;
+                                                
+}
+.phone-number {
+    font-size: 25px;
+    color: white;
+    font-family: 'Product Sans', sans-serif;
+                                                
+}
+.separate{
+    display: flex;
+    justify-content: space-between;
+}
+.separate div{
+    width: 50%;
+}
+.title-titleemail {
+    font-size: 25px;
+    color: white;
+    font-family: 'Product Sans', sans-serif;
+                                                
+}
+p{
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 6px;
+                                                                        
+}
+form{
+    color: white;
+    font-family: 'Product Sans', sans-serif;
+                                                
+}
+.project1{
+position: relative;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: floralwhite;
+    font-family: 'Product Sans', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+}
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.35s;
+}
+.image__overlay:hover {
+    opacity: 1;
+}
+.image__overlay:hover > *{
+    transform: translateY(0);   
+}
+.image__title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.voir-tout{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10x;
+}
+.article1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formulaire{
+    margin-top: 50px;
+    display: block;
+    margin-right: auto;
+}
+footer{
+    margin-top: 2px;
+    text-align: center;
+}
+.section{
+font-family:'Product Sans',sans-serif ;
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.section .scroll{
+    width: 100%;
+    display: flex;
+    margin-top: 1px;
+}
+.section .scroll div{
+    color: #000;
+    font-size: 4em;
+    background: #fff;
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animate 40s linear infinite;
+    animation-delay: -20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+.section .scroll div:nth-child(2)
+{
+    animation: animate2 40s linear infinite;
+    animation-delay: -40s;
+ 
+}
+.section .scroll div span{
+    -webkit-text-stroke: 2px #000;
+    color: transparent;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate2
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}
