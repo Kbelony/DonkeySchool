@@ -24,28 +24,36 @@
     <main>
         <br>
         <section>
-            <h1>Projects</h1>
+            <h1><  Projects ></h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi esse possimus iure ex consequatur eaque aliquid repellat reiciendis, molestias quas tenetur odit dolor, ipsum sed hic fuga aut sit! Minima.</p>
             <br>
             <section class="separate">
                 <div>
-        <div class="project1">
-            <img class="project-thumbnail" src="https://via.placeholder.com/350x250" alt="thumbnail for my projrcts">
-            <div class="image__overlay">
-                <div class="image__title">see more</div>
+                    <h2> Portofolio</h2>
+                <div class="project1">
+                    <img class="project-thumbnail" src="/HTML/Challenge-1/Integration/img/Portofolio.gif" alt="thumbnail for my projrcts">
+                    <div class="image__overlay">
+                        <div class="image__title">see more</div>
+                    </div>
+                </div>
+                    <br>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt eveniet libero nisi ratione officia distinctio iure perferendis soluta sequi vero sed, laboriosam consectetur aut temporibus, porro ab repellendus omnis?</p>
+                </div>
+                <div>
+                <h2><a href=""></a> Futurs projects</h2>
+                <div class="project1">
+                <a href=""><img class="article1" src="/HTML/Challenge-1/Integration/img/img-programming.gif" alt="thumbnail for a article"></a>
+                <div class="image__overlay">
+                    <div class="image__title">In progress ...</div>
+                </div>
+                </div> 
+                <br>
+                <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam iste ab labore fugit repellendus deserunt, ea qui corporis eaque saepe eum officiislibero, voluptatem unde quisquam laborum reiciendis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt eveniet libero nisi ratione officia distinctio iure perferendis soluta sequi vero sed, laboriosam consectetur aut temporibus, porro ab repellendus omnis?</p>
             </div>
-        </div>
-        <div class="project1">
-            <img class="project-thumbnail" src="https://via.placeholder.com/350x250" alt="thumbnail for my projrcts">
-            <div class="image__overlay">
-                <div class="image__title">see more</div>
             </div>
-        </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio fugiat veritatis perspiciatis, iure assumenda, iusto, rerum soluta id minus amet. Provident eum rerum mollitia vel perspiciatis inventore modi voluptatem!</p>
-            <br>
-            <br>
-            <br>
-            </div>
+            
         </section>
         <section class="section">
             <div class="scroll text">
@@ -76,5 +84,17 @@
         </div>
         <p>©2021</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("blue");
+            }
+            else{
+            $("nav").removeClass("blue");
+        }
+        });
+    </script>
 </body>
 </html>

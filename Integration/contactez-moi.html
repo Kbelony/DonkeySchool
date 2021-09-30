@@ -25,9 +25,9 @@
         <div class="informations"></div>
             <h1><strong>To keep in touch :</strong></h1>
             <p class="title-titleemail"><strong><a href="mailto:kalvin.sgb@outlook.com" class="linkemail">kalvin.sgb@outlook.com</strong></a></p>
-            <p class="phone-number">or <a href="tel:+33631906435"></a><strong><br>+33631906335</strong></p>
+            <p class="phone-number">or <br> <a href="tel:+33631906435"></a><strong><br>+33631906335</strong></p>
         </div>
-        <section class="section" style="margin-top: 150px;">
+        <section class="section" style="margin-top: 100px;">
             <div class="scroll text">
                 <div>
                    - HTML - <span> CSS </span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span>- HTML -<span> CSS</span> - HTML - <span> CSS</span>  - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span>
@@ -56,5 +56,17 @@
         </div>
         <p>©2021</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("blue");
+            }
+            else{
+            $("nav").removeClass("blue");
+        }
+        });
+    </script>
 </body>
 </html>
