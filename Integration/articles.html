@@ -8,16 +8,17 @@
     <title>articles</title>
     <link rel="stylesheet" href="/HTML/Challenge-1/Integration/CSS/style.css">
 </head>
-<body>
+<body background="/HTML/Challenge-1/Integration/img/fond.jpg">
 <header>
     <br>
     <nav class="wrapper">
         <ul>
-            <li><a href="/HTML/Challenge-1/Integration/index.html" title="home">home</a></li>
-            <li><a href="/HTML/Challenge-1/Integration/mes-projets.html" title="mes projets">projets</a></li>
-            <li><a href="/HTML/Challenge-1/Integration/a-propos.html" title="a propos">about me</a></li>
-            <li><a href="/HTML/Challenge-1/Integration/articles.html" title="articles">articles</a></li>
-            <li><a href="/HTML/Challenge-1/Integration/contactez-moi.html" title="contactez-moi">contact</a></li>
+            <i class="fas fa-angle-left"></i>
+                <li><a style="text-decoration: none;" href="index.html" title="home">home</a></li>
+                <li><a style="text-decoration: none;" href="mes-projets.html" title="mes projets">projects</a></li>
+                <li><a style="text-decoration: none;" href ="a-propos.html" title="a propos">about me</a></li>
+                <li><a style="text-decoration: none;" href="articles.html" title="articles">articles</a></li>
+                <li><a style="text-decoration: none;" href="contactez-moi.html" title="contactez-moi">contact</a></li>
         </ul>
     </nav>
     </header>
@@ -25,40 +26,78 @@
         <br>
         <section>
             <h1>Articles</h1>
-            <br>
-            <div class="project1">
-                <a href=""><img class="article1" src="https://via.placeholder.com/350x250" alt="thumbnail for a article"></a>
-                <div class="image__overlay">
-                    <div class="image__title">See more</div>
+            <p style="margin-top: 420px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus omnis in officia aperiam facilis ut. Doloribus tempore at vitae nam aperiam autem inventore, repellat voluptates doloremque quasi. Blanditiis, neque!</p>
+            <div class="project1"></div>
+            <div class="slidershow middle">
+                <div class="slides">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
+                    <div class="slide">
+                    <img src="/HTML/Challenge-1/Integration/img/OIP.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/HTML/Challenge-1/Integration/img/Work in progress.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/HTML/Challenge-1/Integration/img/Work in progress.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/HTML/Challenge-1/Integration/img/Work in progress.jpg" alt="">
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+            </div>
                 </div>
                 </div> 
                 <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ipsam iste ab labore fugit repellendus deserunt, ea qui corporis eaque saepe eum officiislibero, voluptatem unde quisquam laborum reiciendis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt eveniet libero nisi ratione officia distinctio iure perferendis soluta sequi vero sed, laboriosam consectetur aut temporibus, porro ab repellendus omnis?</p>
-                <br>
             <br>
-            <br>
+        </section>
+        <section class="section" style="margin-top:-65px;">
+            <div class="scroll text">
+                <div>
+                   - HTML - <span> CSS </span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span>- HTML -<span> CSS</span> - HTML - <span> CSS</span>  - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span> - HTML - <span> CSS</span>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <hr>
         <div class="formulaire">
             <form>
-                <label for="nom">name </label>
+                <label for="nom">Name </label>
                 <br>
                 <input id="nom" type="text"> <br/>
                 <br>
-                <label for="email">e-mail </label>
+                <label for="email">E-mail </label>
                 <br>
                 <input id="email" type="email"> <br/>
                 <br>
-                your message :
+                Your message :
                 <br>
-                <textarea id="text" name="text" rows="6" cols="50"></textarea>
+                <textarea id="text" name="text" rows="6" cols="40"></textarea>
                 <br>
                 <button type="button">Submit</button>
             </form>
         </div>
         <p>©2021</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("blue");
+            }
+            else{
+            $("nav").removeClass("blue");
+        }
+        });
+    </script>
 </body>
 </html>
